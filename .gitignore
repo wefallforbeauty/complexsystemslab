@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Simulation output is regenerated from versioned configurations and seeds.
+# Small curated reference results are committed explicitly elsewhere.
+experiments/results/
+output/
+*.npz
